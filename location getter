@@ -1,0 +1,9 @@
+function msg(){
+    navigator.geolocation.getCurrentPosition(showPosition)
+  }
+function showPosition(position) {
+  var location = {lat:position.coords.latitude,lon:position.coords.longitude};
+  console.log( location)
+}
+
+//call msg
