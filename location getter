@@ -5,5 +5,7 @@ function showPosition(position) {
   var location = {lat:position.coords.latitude,lon:position.coords.longitude};
   console.log( location)
 }
+var loc = msg()
+// loc now holds {lat:x,lon:y}
+console.log(loc)
 
-//call msg
